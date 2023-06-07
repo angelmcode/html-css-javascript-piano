@@ -155,7 +155,7 @@
     border-radius: 0 0 10px 10px;
     position: absolute;
     transform: translateX(94px);
-} 
+}
 
 .key-black_2_a {
     background-color: aqua;
@@ -250,7 +250,7 @@
     border-radius: 0 0 10px 10px;
     position: absolute;
     transform: translateX(94px);
-} 
+}
 
 .key-black_7_a {
     background-color: aqua;
@@ -325,15 +325,15 @@
 
 .key-black_1:hover {
     background-color: aqua;
-} 
+}
 
 .key-black_2:hover {
     background-color: aqua;
-} 
+}
 
 .key-black_3:hover {
     background-color: aqua;
-} 
+}
 
 .key-black_4:hover {
     background-color: aqua;
@@ -394,7 +394,7 @@
         border-radius: 0 0 0px 0px;
         background-color: white;
     }
-    
+
     .key2_a {
         width: 0px;
         height: 0px;
@@ -421,7 +421,7 @@
         position: relative;
         transform: translateX(0px);
     }
-    
+
     .key-black_7 {
         background-color: black;
         width: 0px;
@@ -429,8 +429,8 @@
         border-radius: 0 0 0 0;
         position: relative;
         transform: translateX(0px);
-    } 
-    
+    }
+
     .key-black_7_a {
         background-color: aqua;
         border: 0px solid black;
@@ -440,7 +440,7 @@
         position: relative;
         transform: translateX(0px);
     }
-    
+
     .key-black_8 {
         background-color: black;
         width: 0px;
@@ -449,7 +449,7 @@
         position: none;
         transform: none;
     }
-    
+
     .key-black_8_a {
         background-color: aqua;
         border: 0px solid black;
@@ -459,7 +459,7 @@
         position: none;
         transform: none;
     }
-    
+
     .key-black_9 {
         background-color: black;
         width: 0px;
@@ -468,7 +468,7 @@
         position: none;
         transform: none;
     }
-    
+
     .key-black_9_a {
         background-color: aqua;
         border: 0px solid black;
@@ -478,7 +478,7 @@
         position: none;
         transform: none;
     }
-    
+
     .key-black_10 {
         background-color: black;
         width: 0px;
@@ -487,7 +487,7 @@
         position: none;
         transform: none;
     }
-    
+
     .key-black_10_a {
         background-color: aqua;
         border: 1px solid black;
