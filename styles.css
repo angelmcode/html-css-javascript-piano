@@ -1,0 +1,499 @@
+.piano {
+    width: 850px;
+    height: 290px;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0f0f25;
+}
+
+.h1_piano {
+    position: absolute;
+    width: 848px;
+    text-align: center;
+    /* border: 1px solid black; */
+    top: 40px;
+    /* left: 400px; */
+    font-family: Arial;
+    color: white;
+}
+
+.keys_container_1 {
+    width: 400px;
+    height: 202px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    background-color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 0px solid black;
+    border-radius: 2px;
+}
+
+.keys_container_2 {
+    width: 400px;
+    height: 202px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 0px solid black;
+    border-right: 2px solid black;
+    border-radius: 2px;
+}
+
+.key1 {
+    width: 58px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    font-family: Arial;
+}
+
+.key1_a {
+    width: 58px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    font-family: Arial;
+}
+
+.key2 {
+    width: 58px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    font-family: Arial;
+}
+
+.key2_a {
+    width: 58px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    font-family: Arial;
+}
+
+/* .key {
+    width: 58px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+} */
+
+/* .key-black::after {
+    content: "";
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(-22px);
+} */
+
+.key-black_1 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(35px);
+}
+
+.key-black_1_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(35px);
+}
+
+.key-black_2 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(94px);
+} 
+
+.key-black_2_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(94px);
+}
+
+.key-black_3 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(208px);
+}
+
+.key-black_3_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(208px);
+}
+
+.key-black_4 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(262px);
+}
+
+.key-black_4_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(262px);
+}
+
+.key-black_5 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(322px);
+}
+
+.key-black_5_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(322px);
+}
+
+.key-black_6 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(35px);
+}
+
+.key-black_6_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(35px);
+}
+
+.key-black_7 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(94px);
+} 
+
+.key-black_7_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(94px);
+}
+
+.key-black_8 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(208px);
+}
+
+.key-black_8_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(208px);
+}
+
+.key-black_9 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(262px);
+}
+
+.key-black_9_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(262px);
+}
+
+.key-black_10 {
+    background-color: black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(322px);
+}
+
+.key-black_10_a {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 40px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    transform: translateX(322px);
+}
+
+.key1:hover {
+    background-color: aqua;
+}
+
+.key-black_1:hover {
+    background-color: aqua;
+} 
+
+.key-black_2:hover {
+    background-color: aqua;
+} 
+
+.key-black_3:hover {
+    background-color: aqua;
+} 
+
+.key-black_4:hover {
+    background-color: aqua;
+}
+
+.key-black_5:hover {
+    background-color: aqua;
+}
+
+@media (max-width: 800px) {
+    .piano {
+        width: 450px;
+        height: 290px;
+        border: 1px solid black;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #0f0f25;
+    }
+
+    .h1_piano {
+        position: absolute;
+        width: 448px;
+        text-align: center;
+        /* border: 1px solid black; */
+        top: 40px;
+        /* left: 400px; */
+        font-family: Arial;
+        color: white;
+    }
+
+    .keys_container_2 {
+        width: 0px;
+        height: 0px;
+        border: 0px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: auto;
+        background-color: black;
+        border-top: 0px solid black;
+        border-bottom: 0px solid black;
+        border-left: 0px solid black;
+        border-right: 0px solid black;
+        border-radius: 0px;
+    }
+
+    .key2 {
+        width: 0px;
+        height: 0px;
+        border: 1px solid black;
+        border-radius: 0 0 10px 10px;
+        background-color: white;
+    }
+    
+    .key2_a {
+        width: 0px;
+        height: 0px;
+        border: 1px solid black;
+        border-radius: 0 0 10px 10px;
+        background-color: aqua;
+    }
+
+    .key-black_6 {
+        background-color: black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: relative;
+        transform: translateX(0px);
+    }
+
+    .key-black_6_a {
+        background-color: aqua;
+        border: 0px solid black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 10px 10px;
+        position: relative;
+        transform: translateX(0px);
+    }
+    
+    .key-black_7 {
+        background-color: black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: relative;
+        transform: translateX(0px);
+    } 
+    
+    .key-black_7_a {
+        background-color: aqua;
+        border: 0px solid black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: relative;
+        transform: translateX(0px);
+    }
+    
+    .key-black_8 {
+        background-color: black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: none;
+        transform: none;
+    }
+    
+    .key-black_8_a {
+        background-color: aqua;
+        border: 0px solid black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: none;
+        transform: none;
+    }
+    
+    .key-black_9 {
+        background-color: black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: none;
+        transform: none;
+    }
+    
+    .key-black_9_a {
+        background-color: aqua;
+        border: 0px solid black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: none;
+        transform: none;
+    }
+    
+    .key-black_10 {
+        background-color: black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: none;
+        transform: none;
+    }
+    
+    .key-black_10_a {
+        background-color: aqua;
+        border: 1px solid black;
+        width: 0px;
+        height: 0px;
+        border-radius: 0 0 0 0;
+        position: none;
+        transform: none;
+    }
+}
